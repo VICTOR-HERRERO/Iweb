@@ -1,0 +1,154 @@
+
+
+/* Estilo para los títulos de los fieldsets */
+legend {
+    font-weight: bold;
+}
+
+/* Estilos para los fieldsets */
+fieldset {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Estilo para los párrafos dentro de los fieldsets */
+fieldset p {
+    margin: 10px 0;
+    margin-left: 20px;
+}
+
+/* Cambiar el color de fondo de la página entera */
+body:not(header) {
+    background-color: #c4bea6; /* Cambia el color de fondo a gris claro */
+    /* Otros estilos para el cuerpo de la página */
+    /*margin-left: 300px;*/
+}
+
+/* Estilos para el header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #604f37;
+    color: #ffffff;
+
+}
+
+/* Estilo para los enlaces dentro del header */
+header a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+
+}
+
+
+/* Estilo para la celda precios */
+.precios {
+    background-color: #bca380; /* Cambia el color al que desees */
+    /* Otros estilos opcionales, como color de texto, bordes, etc. */
+}
+
+/* Estilo para la celda grupos */
+.grupos {
+    background-color: #947954; /* Cambia el color al que desees */
+    /* Otros estilos opcionales, como color de texto, bordes, etc. */
+}
+
+/* Estilo para la celda titulos */
+.titulos {
+    background-color: #4b3d29; /* Cambia el color al que desees */
+    color: #ffffff
+    /* Otros estilos opcionales, como color de texto, bordes, etc. */
+}
+
+p {
+    word-wrap: break-word; /* Romper palabras largas */
+    max-width: 800px; /* Ancho máximo del contenedor del texto */
+}
+
+/* Estilos para el footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #604f37;
+    color: #ffffff;
+
+}
+
+/* Estilo para los enlaces dentro del footer */
+footer a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+
+}
+
+table {
+    border: 1px solid #000; /* 1 píxel de ancho y color negro (puedes cambiar el color) */
+}
+
+
+iframe {
+    border: none; /* Elimina el borde */
+}
+
+
+
+
+
+/* Media Query para pantallas medianas (tablet) */
+@media (max-width: 1024px) {
+    /* Cambios en estilos para pantallas medianas */
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+    body {
+        background-color: #ff0000;
+    }
+
+    table {
+        width: 40%;
+        font-size: 11px;
+    }
+
+    label {
+        font-size: 15px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    select {
+        width: 370px;
+        font-size: 13px;
+    }
+
+    input[type="submit"],
+    select {
+        font-size: 13px;
+    }
+
+    /* Estilos para el encabezado para pantallas medianas */
+    .encabezado h1 {
+        font-size: 30px;
+    }
+
+    .encabezado nav ul li a {
+        font-size: 13px;
+    }
+
+    img {
+        width: 60%;
+        height: 60%;
+    }
+    
+}
